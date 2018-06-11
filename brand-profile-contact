@@ -12,15 +12,11 @@
         ],
         "logo":"https://dt9jl8a7gc9zr.cloudfront.net/assets/sprite/logo-48b2fd01fa2653845ef016f51c2afd24348e24d3baa800648ba700ddb313867e.svg",
         "contactPoint": [
-          { "@type": "ContactPoint",
-            "telephone": "0800的客服電話號碼",
-            "contactType": "customer service",
-            "contactOption": "TollFree",
-            "areaServed": "TW"
-          },{
+        {
             "@type": "ContactPoint",
             "telephone": "一般的客服電話號碼",
-            "contactType": "customer service"
+            "contactType": "customer service",
+            "areaServed": "TW"
           }
         ]
       }
