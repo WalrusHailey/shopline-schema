@@ -1,0 +1,23 @@
+<script type="application/ld+json">
+{
+  "@context":"http://schema.org",
+  "@type":"ItemList",
+  "itemListElement":[
+    {
+      "@type":"ListItem",
+      "position":1,
+      "url":"網址1"
+    },
+    {
+      "@type":"ListItem",
+      "position":2,
+      "url":"網址2"
+    },
+    {
+      "@type":"ListItem",
+      "position":3,
+      "url":"網址3"
+    }
+  ]
+}
+</script>
