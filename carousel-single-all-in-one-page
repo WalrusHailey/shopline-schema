@@ -1,29 +1,41 @@
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "ItemList",
-  "itemListElement": [
+  "@context":"http://schema.org",
+  "@type":"ItemList",
+  "itemListElement":[
     {
-      @type: ListItem
-      position: 1
-      item: {
-        @type: recipe
-        url: http://example.com/big_list_of_recipes#recipe_1
-        name: George's Cherry Pie
-        author: George Smith
-        ... all other required Recipe type properties ...}
+      "@type":"ListItem",
+      "position":1,
+      "item":{
+      	"@type": "thing",
+        "url":"https://www.example.com/happy#Case_1",
+        "name":"Happy Case 1",
+      	"description":"This is the first happy case.",
+        "image": "https://www.example.com/happy1.jpg"
+      } 
     },
     {
-      @type: ListItem
-      position: 2
-      item: {
-        @type: recipe
-        url: http://example.com/big_list_of_recipes#recipe_2
-        name: Martha's Apple Pie
-        author: Martha Smith
-        ... all other required Recipe type properties ...}
+      "@type":"ListItem",
+      "position":2,
+      "item":{
+      	"@type": "thing",
+        "url":"https://www.example.com/happy#Case_2",
+        "name":"Happy Case 2",
+      	"description":"This is the second happy case.",
+        "image": "https://www.example.com/happy2.jpg"
+      } 
     },
-    ... more recipes ...
+    {
+      "@type":"ListItem",
+      "position":3,
+      "item":{
+      	"@type": "thing",
+        "url":"https://www.example.com/happy#Case_3",
+        "name":"Happy Case 3",
+      	"description":"This is the third happy case.",
+        "image": "https://www.example.com/happy3.jpg"
+      } 
+    }
   ]
 }
 </script>
